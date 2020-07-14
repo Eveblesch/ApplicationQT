@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>KGDoYouLoveMe.ttf</file>
+        <file>Foglihten-068.otf</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>photo.qrc</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,172 @@
+/*QWidget {
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #fe7738, stop: 0.4 #f909b0, stop:1 #09eef9);
+  }
+  */
+
+QWidget{
+    background-color:white;
+}
+
+#button_inscription, #button_connexion{
+    background: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #09eef9, stop: 1 #f909b0);
+    border-radius:10px;
+    width:300px;
+    height:140px;
+    font-size:40px;
+    color:white;
+    font-family:"KG Do You Love Me";
+}
+
+#button_retour, #button_retour_profil{
+    border-radius: 50%;
+    height:100px;
+    font-size:100px;
+    font-family:"KG Do You Love Me";
+    color:#f909b0;
+    margin-left:50px;
+}
+
+#button_recherche{
+    border:none;
+    font-size:100px;
+    font-family:"KG Do You Love Me";
+    color:#f909b0;
+    padding-bottom:20px;
+    margin-left:20px;
+}
+
+#bouton{
+        background: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #09eef9, stop: 1 #f909b0);
+        border-radius:10px;
+        width:60px;
+        height:100px;
+        font-size:40px;
+        color:white;
+        font-family:"KG Do You Love Me";
+}
+
+#bouton_validation{
+    background: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #09eef9, stop: 1 #f909b0);
+    border-radius:10px;
+    width:300px;
+    height:60px;
+    font-size:40px;
+    color:white;
+    font-family:"KG Do You Love Me";
+}
+
+#bouton_profil{
+    background: qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 #fe7738, stop: 0.4 #f909b0, stop:1 #09eef9);
+    border-radius:10px;
+    padding:5px 5px 5px 5px;
+    width:100px;
+    height:50px;
+    font-size:40px;
+    font-family:"Foglihten";
+    color:white;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+
+#button_icones,#button_icones_2, #button_icones_3, #button_icones_4{
+    border-radius:10px;
+    font-size:20px;
+    color:#f909b0;
+    font-family:"Foglihten";
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 2px solid #09eef9;
+
+}
+
+#label_h1{
+    background-color:none;
+    font-family:"KG Do You Love Me";
+    font-size: 70px;
+    qproperty-alignment: AlignCenter;
+    margin-top:50px;
+}
+
+#label_h2{
+    font-family:"KG Do You Love Me";
+    font-size: 40px;
+    qproperty-alignment: AlignCenter;
+    margin-top:40px;
+}
+
+#label_h3{
+    font-family:"Foglihten";
+    font-size: 40px;
+    qproperty-alignment: AlignCenter;
+    margin-top:60px;
+}
+
+#label_gras{
+    margin-top:100px;
+    font-family:"Foglihten";
+    font-size: 40px;
+    qproperty-alignment: AlignCenter;
+}
+
+#label_profil{
+    font-family:"Foglihten";
+    font-size: 30px;
+    qproperty-alignment: AlignCenter;
+}
+
+
+QLineEdit{
+    height : 60px;
+    width:400px;
+    border-radius: 10px;
+    font:25px;
+    font-family:"Foglihten";
+    padding-left:20px;
+    margin-bottom:10px;
+    border: 2px solid #f909b0;
+}
+
+
+
+
+#couverture{
+     background-color:white;
+     width:30px;
+}
+
+QComboBox{
+    width:400px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    font-size:20px;
+
+}
+
+QComboBox::item
+{
+    color:black;
+}
+
+#comboBoxChoix
+{
+    width:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    border-radius:10px;
+    height : 40px;
+    background-color:#09eef9;
+
+
+}
+
+QScrollArea{
+    border:none;
+}
+/*
+QScrollBar{
+    background-color:none;
+}*/
+
